@@ -7,7 +7,7 @@ type IconProps = PropsWithChildren<{
   name: string;
 }>;
 
-export default function icons({name}: IconProps) {
+export default function Icons({name}: IconProps) {
   switch (name) {
     case 'circle':
       return <Icon name="circle-thin" size={38} color={'#f7cd2e'} />;
